@@ -1,0 +1,59 @@
+body{
+  background: #333;
+  border: 30px solid #d4d4d4;
+  border-top: 0px;
+  padding-bottom: 20px;
+}
+#note{
+  color: rgb(240, 85, 13);
+  font-weight: bold;
+}
+table{
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table td{
+  width: 120px;
+  height: 120px;
+  border: 5px solid #f4f4f4;
+  text-align: center;
+  font-size: 75px;
+  color: rgb(240, 198, 13);
+  cursor: pointer;
+}
+td:hover{
+  background: rgb(240, 198, 13);
+  color: #333;
+}
+.btn{
+  margin: 3px;
+}
+#lfont{
+  font-size: 75px;
+  padding-bottom: 20px;
+}
+#box{
+  color:rgb(240, 198, 13);
+  text-align: center;
+  font-weight: bold;
+}
+#p1, #p2{
+  font-size: 35px;
+}
+#currentScore1, #currentScore2{
+  font-size: 40px;
+  color: #d4d4d4;
+}
+.winBtn{
+  background: rgb(240, 198, 13);
+}
+.winBtn:hover{
+  background: rgb(202, 170, 29);
+}
+
+#devdet{
+  text-align: right;
+  color: rgb(240, 198, 13);
+  padding-right: 10px;
+}

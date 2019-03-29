@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome | Assesment 5</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-sm-8">
+          <h1>Welcome to Tik Tak Toe!</h1>
+          <p>Get ready to play!</p>
+          <button id="addnameBtn" class="btn btn-primary btn-lg" name="pbtn">Add player names</button>
+          <button id="resetbtn" class="btn btn-primary btn-lg" name="rbtn">Reset!</button><br>
+          <button id="quit" class="btn btn-danger btn-lg" name="rbtn">Quit Game!</button>
+        </div>
+        <div class="col-sm-4">
+            <p><b>Instructions:</b><br>
+              Match three in any of the side.
+            </p>
+            <ul>
+              <li>Click once to put "X" in the box.</li>
+              <li>Double click twice to put "O" in the box.</li>
+              <li>Click again to blank in the box.</li>
+              <li>Click reset button to reset all.</li>
+            </ul>
+            <p id="note"> After winning a game click on the winner to add 5 points. </p>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4" id="box">
+        <h1 id="lfont">SCORE</h1>
+        <div><span id="p1">Player 1 :</span><span id="currentScore1"> 0</span></div>
+        <div><span id="p2">Player 2 :</span><span id="currentScore2"> 0</span></div>
+      </div>
+      <div class="col-sm-4">
+        <table>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-sm-4" id="box">
+        <h1 id="lfont">WHO WIN?</h1>
+        <button class="btn btn-lg winBtn" id="p1btn">Player 1</button>
+        <button class="btn btn-lg winBtn" id="p2btn">Player 2</button>
+      </div>
+    </div>
+      
+  </div>
+  <div id="devdet">
+    Created by ArinDam Hazra
+  </div>
+</body>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</html>
